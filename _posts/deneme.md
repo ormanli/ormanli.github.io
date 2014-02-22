@@ -2,7 +2,7 @@
 layout: page
 title: Syntax Highlighting Post
 description: "Demo post displaying the various ways of highlighting code in Markdown."
-category: projects
+category: articles
 tags: [sample]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut est mi. Nulla at lobortis nibh. Mauris vulputate ipsum rhoncus nibh consectetur, pellentesque vehicula massa ultricies. Donec vestibulum lectus vel nisi tincidunt, vel commodo nibh ullamcorper. Suspendisse bibendum magna nec mauris mollis, eget vulputate sapien lobortis. Aliquam tincidunt tellus sed diam sagittis feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin id velit vel lectus congue iaculis sed ac ipsum. Etiam vel turpis sed nulla congue eleifend sit amet iaculis leo. Etiam aliquet et dolor quis auctor. Vestibulum fringilla tortor quis felis gravida, non aliquam justo sollicitudin. Nam rhoncus diam eu faucibus fringilla. Etiam in convallis turpis, vel bibendum tortor.
