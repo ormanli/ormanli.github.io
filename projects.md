@@ -4,7 +4,7 @@ permalink: /projects/index.html
 title: Projects
 tagline: Serdar Ormanlı
 tags: [project, code]
-modified: 22-2-2014
+modified: 31-8-2014
 ---
 
 -   [Rule-110][5]                 : Rule 110 implementations in some languages. *WIP*
@@ -16,7 +16,8 @@ modified: 22-2-2014
 -   [haskell-hanoi][8]            : Towers of Hanoi implementation in Haskell.
 -   [SQL2NoSQL][6]                : Experimental SQL to MongoDB connector. Execute queries in MongoDB. *WIP*
 -   [run-length-endoing][9]       : Pure Python Run Length Encoding image compression.
--   [user-administration][10]      : Single page basic user administration app with Spring MVC, Thymeleaf, jQuery, jTable.
+-   [user-administration][10]     : Single page basic user administration app with Spring MVC, Thymeleaf, jQuery, jTable.
+-   [agitr-examples][11]          : Examples of A Gentle Introduction to Ros in Python
 
   [1]: https://github.com/ormanli/Yedekle "Yedekle"
   [2]: https://github.com/ormanli/prime-phonebook "Prime Phonebook"
@@ -28,3 +29,4 @@ modified: 22-2-2014
   [8]: https://github.com/ormanli/haskell-hanoi "Haskell-Hanoi"
   [9]: https://github.com/ormanli/run-length-encoding "Run Length Encoding"
   [10]: https://github.com/ormanli/user-administration "User Administration"
+  [11]: https://github.com/ormanli/agitr-examples "Agitr Examples"
