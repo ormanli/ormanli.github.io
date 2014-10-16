@@ -4,39 +4,34 @@
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
-{% include _head.html %}
+{% include head.html %}
 </head>
 
-<body class="page" itemscope itemtype="http://schema.org/WebPage">
+<body id="page">
 
-{% include _browser-upgrade.html %}
+{% include navigation.html %}
 
-{% include _navigation.html %}
-
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-  {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
-</div><!-- /.image-wrap -->{% endif %}
-
-<div id="main" role="main"  itemprop="mainContentOfPage">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    <h1 itemprop="name">{{ page.title }}</h1>
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
+<div id="main" role="main">
+  <article class="entry">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
+      </header>
+      <div class="entry-content">
+        {{ content }}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
   </article>
-</div><!-- /#index -->
+</div><!-- /#main -->
 
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
+</div><!-- /.footer-wrapper -->
 
-{% include _scripts.html %}          
+{% include scripts.html %}          
 
 </body>
 </html>
